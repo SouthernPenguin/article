@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // function p() { }
+    // console.dir(p.__proto__)
+
+
+    function Person(name) {
+      this.name = name
+    }
+    const p1 = new Person()
+    console.log('p1.__proto__ === Person.prototype', p1.__proto__ === Person.prototype)
+    console.log('Person.prototype.__proto__ === Object.prototype', Person.prototype.__proto__ === Object.prototype)
+    console.log('Object.prototype.__proto__', Object.prototype.__proto__)
+  </script>
+</body>
+
+</html>
