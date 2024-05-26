@@ -1,0 +1,14 @@
+{
+  "name": "ts-fs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ccj.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
+}

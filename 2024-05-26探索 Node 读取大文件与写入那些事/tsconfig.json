@@ -1,0 +1,23 @@
+// {
+//   "compilerOptions": {
+//     "module": "commonjs", // 或 "esnext" 如果你使用 ES 模块
+//     "target": "es6",
+//     "esModuleInterop": true,
+//     "strict": true,
+//     "skipLibCheck": true,
+//     "forceConsistentCasingInFileNames": true
+//   }
+// }
+
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
